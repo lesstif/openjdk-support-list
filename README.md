@@ -4,19 +4,19 @@ JDK 기반 제품들의 OpenJDK 지원 여부 및 버전 정보 정리.
 
 OpenJDK 가 안정화된 버전인 8 이상 지원 여부 확인
 
-* [WAS(Web Application Server)](#wasweb-application-server)
- * [apache tomcat](#apache-tomcat)
- * [Jetty](#jetty)
- * [JBoss](#jboss)
-* [Atlassian Product](#atlassian-product)
- * [JIRA](#jira)
- * [Confluence](#confluence)
- * [Bamboo](#bamboo)
- * [Bitbucket Server](#bitbucket-server)
-* [기타 Open Source](#기타-open-source)
- * [Jenkins](#jenkins)
-* [같이 보기](#같이-보기)
- * [JDK Vendor](#jdk-vendor)
+- [WAS(Web Application Server)](#wasweb-application-server)
+    - [apache tomcat](#apache-tomcat)
+    - [Jetty](#jetty)
+    - [JBoss](#jboss)
+- [Atlassian Product](#atlassian-product)
+    - [JIRA](#jira)
+    - [Confluence](#confluence)
+    - [Bamboo](#bamboo)
+    - [Bitbucket Server](#bitbucket-server)
+- [기타 Open Source](#기타-open-source)
+    - [Jenkins](#jenkins)
+- [같이 보기](#같이-보기)
+    - [JDK Vendor](#jdk-vendor)
 
 ## WAS(Web Application Server)
 
