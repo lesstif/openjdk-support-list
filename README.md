@@ -26,9 +26,48 @@ JDK 8 이상을 지원하는 버전
 
 ## Atlassian Product
 
+
 ### JIRA
 
-현재 미지원.
+
+
+JIRA 7.13.x 부터 OpenJDK 공식 지원.
+
+| JIRA Version | OpenJDK Version | 비고 |
+| ------------ | --------------- | ---- |
+| 7.13.x       | 8               |      |
+|              |                 |      |
+|              |                 |      |
+
+* [JIRA 7.13 Supported platforms](https://confluence.atlassian.com/adminjiraserver/supported-platforms-938846830.html) 참고
+
+
+### Confluence
+
+Confluence 6.13.x 부터 OpenJDK 지원
+
+
+
+| Confluence Version | OpenJDK Version | 비고 |
+| ------------------ | --------------- | ---- |
+| 6.13.x             | 8               |      |
+|                    |                 |      |
+|                    |                 |      |
+
+
+
+* [Confluence 6.13 Supported platforms](https://confluence.atlassian.com/doc/supported-platforms-207488198.html) 참고
+
+## 
+
+### Bamboo
+
+Bitbucket 5.16.x 는 OpenJDK 1.8u65+ 이상 지원 .
+
+[Supported platforms](https://confluence.atlassian.com/bitbucketserver/supported-platforms-776640981.html) 참고
+
+## 
+
 
 
 ### Bitbucket Server
@@ -42,6 +81,12 @@ Bitbucket 5.16.x 는 OpenJDK 1.8u65+ 이상 지원 .
 ### Jenkins
 
 
-## Ref
+## 같이 보기
 
 * [Oracle Java SE Support Roadmap](https://www.oracle.com/technetwork/java/java-se-support-roadmap.html)
+
+### JDK Vendor
+
+* [Redhat OpenJDK Life Cycle and Support Policy](https://access.redhat.com/articles/1299013)
+* [Azul Systems] (https://www.azul.com/products/zulu-and-zulu-enterprise/)
+* [London Java Community (LJC)](https://www.infoq.com/news/2018/03/AdoptOpenJDKMar18)
