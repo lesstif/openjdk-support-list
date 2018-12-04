@@ -72,15 +72,24 @@ Confluence 6.13.x 부터 OpenJDK 지원
 
 * [Confluence 6.13 Supported platforms](https://confluence.atlassian.com/doc/supported-platforms-207488198.html) 참고
 
-## 
+ 
 
 ### Bamboo
 
-Bitbucket 5.16.x 는 OpenJDK 1.8u65+ 이상 지원 .
+Bamboo 5.13.x 부터 OpenJDK 지원 .
 
-[Supported platforms](https://confluence.atlassian.com/bitbucketserver/supported-platforms-776640981.html) 참고
 
-## 
+
+| Bamboo Version | OpenJDK Version | 비고 |
+| -------------- | --------------- | ---- |
+| 5.13.x ~       | 8               |      |
+| 6.0.x ~        | 8               |      |
+|                |                 |      |
+
+
+
+* [Bamboo 5.13 Supported platforms](https://confluence.atlassian.com/bamboo0513/supported-platforms-857079483.html)
+* [Bamboo 6.7 Supported platforms](https://confluence.atlassian.com/bamboo/supported-platforms-289276764.html)
 
 
 
@@ -90,9 +99,23 @@ Bitbucket 5.16.x 는 OpenJDK 1.8u65+ 이상 지원 .
 
 [Supported platforms](https://confluence.atlassian.com/bitbucketserver/supported-platforms-776640981.html) 참고
 
+
+
 ## 기타 Open Source
 
 ### Jenkins
+
+
+
+현재 (2018.12) OpenJDK 8 버전만 지원
+
+| Jenkins Version | OpenJDK Version | 비고 |
+| --------------- | --------------- | ---- |
+| 2.138.3 (LTS)   | 8               |      |
+|                 |                 |      |
+|                 |                 |      |
+
+
 
 
 ## 같이 보기
@@ -102,5 +125,5 @@ Bitbucket 5.16.x 는 OpenJDK 1.8u65+ 이상 지원 .
 ### JDK Vendor
 
 * [Redhat OpenJDK Life Cycle and Support Policy](https://access.redhat.com/articles/1299013)
-* [Azul Systems] (https://www.azul.com/products/zulu-and-zulu-enterprise/)
+* [Azul Systems](https://www.azul.com/products/zulu-and-zulu-enterprise/)
 * [London Java Community (LJC)](https://www.infoq.com/news/2018/03/AdoptOpenJDKMar18)
