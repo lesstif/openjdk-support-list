@@ -1,4 +1,4 @@
-OS, package manager 별 OpenJDK 설치 방법
+OS, package manager 별 OpenJDK 설치 방법(Azul 사의 Zulu JDK 권장)
 
 ## Windows - Scoop
 
@@ -25,7 +25,7 @@ scoop install zulu8
 
 ## Centos 7
 
-http://repos.azulsystems.com/
+* [Attach the Yum Repository on a RHEL, SLES, or Oracle Linux System](http://docs.azul.com/zulu/zuludocs/#ZuluUserGuide/PrepareZuluPlatform/AttachYumRepositoryRHEL-SLES-OracleLinuxSys.htm)
 
 ```sh
 $ sudo rpm --import http://repos.azulsystems.com/RPM-GPG-KEY-azulsystems
@@ -53,3 +53,34 @@ $ sudo yum install zulu-8
 ```
 
 ## Ubuntu 18 LTS
+
+* [Attach the APT Repository on an Ubuntu or Debian System](http://docs.azul.com/zulu/zuludocs/#ZuluUserGuide/PrepareZuluPlatform/AttachAPTRepositoryUbuntuOrDebianSys.htm)
+
+1. import Azul's public key.
+
+    ```sh
+    $ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 0xB1998361219BD9C9
+    ```
+
+1. Add APT repository
+    
+    ```sh
+    $ sudo apt-add-repository 'deb http://repos.azulsystems.com/ubuntu stable main'
+    ```
+
+1. Update the information
+    
+    ```sh
+    $ sudo apt update 
+    ```
+
+1. list zulu packages
+
+    ```sh
+    $ sudo apt-cache search zulu-
+    ```
+1. Install package
+
+    ```sh
+    $ sudo apt install zulu-8 
+    ```
