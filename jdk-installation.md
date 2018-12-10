@@ -1,5 +1,12 @@
 OS, package manager 별 OpenJDK 설치 방법(Azul 사의 Zulu JDK 권장)
 
+## TOC
+
+* [Windows - Scoop](#windows---scoop)
+    * [JDK 8](#jdk-8)
+* [Centos 7](#centos-7)
+* [Ubuntu 18 LTS](#ubuntu-18-lts)
+
 ## Windows - Scoop
 
 ```sh
