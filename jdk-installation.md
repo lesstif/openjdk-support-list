@@ -59,6 +59,20 @@ zulu-9.x86_64                                        9.0.7.1-1                  
 $ sudo yum install zulu-8
 ```
 
+### 설치 경로
+
+*/usr/lib/jvm/zulu-{version}* 에 설치되므로 하단의 bin 폴더를 PATH 에 추가 (예: zulu-8의 경우 */usr/lib/jvm/zulu-8/bin*)
+
+```sh
+$ export PATH=$PATH:/usr/lib/jvm/zulu-8/bin
+
+$ java -c
+
+openjdk version "1.8.0_192"
+OpenJDK Runtime Environment (Zulu 8.33.0.1-linux64) (build 1.8.0_192-b01)
+OpenJDK 64-Bit Server VM (Zulu 8.33.0.1-linux64) (build 25.192-b01, mixed mode)
+```
+
 ## Ubuntu 18 LTS
 
 * [Attach the APT Repository on an Ubuntu or Debian System](http://docs.azul.com/zulu/zuludocs/#ZuluUserGuide/PrepareZuluPlatform/AttachAPTRepositoryUbuntuOrDebianSys.htm)
@@ -91,3 +105,18 @@ $ sudo yum install zulu-8
     ```sh
     $ sudo apt install zulu-8 
     ```
+    
+### 설치 경로
+
+*/usr/lib/jvm/zulu-{version}-amd64* 에 설치되므로 하단의 bin 폴더를 PATH 에 추가 (예: zulu-8의 경우 */usr/lib/jvm/zulu-8-amd64/bin*)
+
+```sh
+$ export PATH=$PATH:/usr/lib/jvm/zulu-8-amd64/bin
+
+$ java -c
+
+openjdk version "1.8.0_192"
+OpenJDK Runtime Environment (Zulu 8.33.0.1-linux64) (build 1.8.0_192-b01)
+OpenJDK 64-Bit Server VM (Zulu 8.33.0.1-linux64) (build 25.192-b01, mixed mode)
+```
+
