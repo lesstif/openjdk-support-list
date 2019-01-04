@@ -19,6 +19,7 @@ OpenJDK 가 안정화된 버전인 8 이상 지원 여부 확인
     - [Bitbucket Server](#bitbucket-server)
 - [기타 Open Source](#기타-open-source)
     - [Jenkins](#jenkins)
+    - [Elastic Search](#elastic-search)
 - [같이 보기](#같이-보기)
     - [JDK Vendor](#jdk-vendor)
 
@@ -47,8 +48,6 @@ JDK 8 이상을 지원하는 버전
 
 ### JIRA
 
-
-
 JIRA 7.13.x 부터 OpenJDK 공식 지원.
 
 | JIRA Version | OpenJDK Version | 비고 |
@@ -65,7 +64,6 @@ JIRA 7.13.x 부터 OpenJDK 공식 지원.
 Confluence 6.13.x 부터 OpenJDK 지원
 
 
-
 | Confluence Version | OpenJDK Version | 비고 |
 | ------------------ | --------------- | ---- |
 | 6.13.x             | 8               |      |
@@ -76,12 +74,10 @@ Confluence 6.13.x 부터 OpenJDK 지원
 
 * [Confluence 6.13 Supported platforms](https://confluence.atlassian.com/doc/supported-platforms-207488198.html) 참고
 
- 
 
 ### Bamboo
 
 Bamboo 5.13.x 부터 OpenJDK 지원 .
-
 
 
 | Bamboo Version | OpenJDK Version | 비고 |
@@ -119,6 +115,11 @@ Bitbucket 5.16.x 는 OpenJDK 1.8u65+ 이상 지원 .
 |                 |                 |      |
 |                 |                 |      |
 
+### Elastic Search
+
+현재 (2019.01) OpenJDK 8 버전 권장(1.8.0u111+ 이상 지원)
+
+* [Elasticsearch and JVM](https://www.elastic.co/support/matrix#matrix_jvm)
 
 ## 같이 보기
 
