@@ -70,7 +70,7 @@ Confluence 6.13.x 부터 OpenJDK 지원
 |                    |                 |      |
 |                    |                 |      |
 
-
+Confluence는 Oracle JDK와 IBM의 AdoptOpenJDK 만 지원함. (Azul 사의 Zulu 는 미지원)
 
 * [Confluence 6.13 Supported platforms](https://confluence.atlassian.com/doc/supported-platforms-207488198.html) 참고
 

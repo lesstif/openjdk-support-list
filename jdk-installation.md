@@ -34,6 +34,8 @@ scoop install zulu8
 
 * [Attach the Yum Repository on a RHEL, SLES, or Oracle Linux System](http://docs.azul.com/zulu/zuludocs/#ZuluUserGuide/PrepareZuluPlatform/AttachYumRepositoryRHEL-SLES-OracleLinuxSys.htm)
 
+### Azul 사의 Zulu OpenJDK
+
 ```sh
 $ sudo rpm --import http://repos.azulsystems.com/RPM-GPG-KEY-azulsystems
 $ sudo curl -o /etc/yum.repos.d/zulu.repo http://repos.azulsystems.com/rhel/zulu.repo
@@ -59,19 +61,21 @@ zulu-9.x86_64                                        9.0.7.1-1                  
 $ sudo yum install zulu-8
 ```
 
-### 설치 경로
+#### 설치 경로
 
-*/usr/lib/jvm/zulu-{version}* 에 설치되므로 하단의 bin 폴더를 PATH 에 추가 (예: zulu-8의 경우 */usr/lib/jvm/zulu-8/bin*)
+*/usr/lib/jvm/zulu-{version}* 에 설치됨(예: zulu-8의 경우
+
+### AdoptJDK 
 
 ```sh
-$ export PATH=$PATH:/usr/lib/jvm/zulu-8/bin
-
-$ java -c
-
-openjdk version "1.8.0_192"
-OpenJDK Runtime Environment (Zulu 8.33.0.1-linux64) (build 1.8.0_192-b01)
-OpenJDK 64-Bit Server VM (Zulu 8.33.0.1-linux64) (build 25.192-b01, mixed mode)
+$ wget https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u202-b08/OpenJDK8U-jdk_x64_linux_hotspot_8u202b08.tar.gz
+$ sudo mkdir -p /usr/java
+$ tar ztvf OpenJDK8U-jdk_x64_linux_hotspot_8u202b08.tar.gz -C /usr/java/
+$ sudo ln -s /usr/java/jdk8u202-b08 /usr/java/adoptjdk-8
+$ export JDK_HOME=/usr/java/adoptjdk-8
+$ export PATH=${JDK_HOME}/bin:$PATH
 ```
+
 
 ## Ubuntu 18 LTS
 
@@ -105,18 +109,3 @@ OpenJDK 64-Bit Server VM (Zulu 8.33.0.1-linux64) (build 25.192-b01, mixed mode)
     ```sh
     $ sudo apt install zulu-8 
     ```
-    
-### 설치 경로
-
-*/usr/lib/jvm/zulu-{version}-amd64* 에 설치되므로 하단의 bin 폴더를 PATH 에 추가 (예: zulu-8의 경우 */usr/lib/jvm/zulu-8-amd64/bin*)
-
-```sh
-$ export PATH=$PATH:/usr/lib/jvm/zulu-8-amd64/bin
-
-$ java -c
-
-openjdk version "1.8.0_192"
-OpenJDK Runtime Environment (Zulu 8.33.0.1-linux64) (build 1.8.0_192-b01)
-OpenJDK 64-Bit Server VM (Zulu 8.33.0.1-linux64) (build 25.192-b01, mixed mode)
-```
-
